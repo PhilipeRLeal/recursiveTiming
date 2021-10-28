@@ -1,0 +1,9 @@
+name: r
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - flake8
+  - numpy
+  - datetime
+

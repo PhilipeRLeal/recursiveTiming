@@ -1,10 +1,11 @@
 from unittest import TestCase
+import numpy as np
 from recursiveTiming.recursive_timing import RecursiveTimer
 
 
 size = 30*1e6
 
-RecursiveTimer()
+timer = RecursiveTimer()
 
 def get_random_array(size=size):
     random_array = np.random.random((int(size)))
