@@ -35,6 +35,16 @@ except BaseException:
 
 
 try:
+    requirements = []
+    with open('docs/requirements.txt', 'r') as f:
+        for line in f.readlines():
+            l , name = line.strip().split(',')
+            l = l.replace('\n', '')
+            if l == '':
+                pass:
+            else:
+                requirements.append((l,name))
+except:
     def dict_to_values(dependencies):
         values = []
         for k in dependencies:
@@ -53,7 +63,7 @@ try:
         requirements = dict_to_values(my_dict['dependencies'])
         del my_dict
 
-except BaseException:
+finally:
     requirements = None
 
 
@@ -80,6 +90,7 @@ setup(name='recursiveTiming',
           "Intended Audience :: Science/Research",
           'License :: OSI Approved :: MIT License',
           'Natural Language :: English',
+          'Programming Language :: Python :: 2.7',
           'Programming Language :: Python :: 3.4',
           'Programming Language :: Python :: 3.5',
           'Programming Language :: Python :: 3.6',
