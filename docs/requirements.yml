@@ -5,5 +5,4 @@ channels:
 dependencies:
   - flake8
   - numpy
-  - datetime
 
