@@ -8,5 +8,4 @@ one to define how the messages are printed in the console every time the decorat
 Also, this class is capable of holding the previous time of the last run.
 
 
-# An Example is provided within the examples repository, one that was extracted from 
-[here](https://github.com/PhilipeRLeal/gpu-python-tutorial)
+# An Example is provided within the examples repository, one that was extracted from [here](https://github.com/PhilipeRLeal/gpu-python-tutorial)
