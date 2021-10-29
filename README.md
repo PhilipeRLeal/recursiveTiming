@@ -9,4 +9,4 @@ Also, this class is capable of holding the previous time of the last run.
 
 
 # An Example is provided within the examples repository, one that was extracted from 
-[here] (https://github.com/PhilipeRLeal/gpu-python-tutorial)
+[here](https://github.com/PhilipeRLeal/gpu-python-tutorial)
